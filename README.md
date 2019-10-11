@@ -31,3 +31,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 https://livedemo00-opencart.template-help.com/opencart_prod-23516/index.php?route=common/home
 
 esta no template monster para download
+
+## Registrar este dominio - https://registro.br/busca-dominio?fqdn=FireCursos
