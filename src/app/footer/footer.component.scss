@@ -1,8 +1,226 @@
-.row {
-	margin-right: -15px;
-	margin-left: -15px;
+footer {
+  background: #464646;
+  position: relative;
+  color: #fff;
+  padding: 0;
+  margin-top: 30px;
 }
 
-.row-inner.clearfix {
-	display: contents;
+footer .box .box-heading {
+  text-align: left;
+}
+
+footer .footer_modules {
+  position: relative;
+  padding: 27px 0 0;
+}
+
+footer .footer_modules h1 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+footer .footer_modules p {
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+footer .footer_modules .container .tm-inner {
+  padding-top: 10px;
+}
+
+footer h1,
+footer h2,
+footer h3,
+footer h4,
+footer h5,
+footer h6 {
+  color: #fff;
+}
+
+footer h1:after,
+footer h1:before,
+footer h2:after,
+footer h2:before,
+footer h3:after,
+footer h3:before,
+footer h4:after,
+footer h4:before,
+footer h5:after,
+footer h5:before,
+footer h6:after,
+footer h6:before {
+  display: none;
+}
+
+footer h3 {
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-bottom: 6px;
+  text-transform: none;
+}
+
+footer h3 + ul {
+  margin-top: 0;
+}
+
+footer ul {
+  margin: 0 0 26px;
+}
+
+footer ul li {
+  display: block;
+}
+
+footer ul li a,
+footer ul li a:focus,
+footer ul li a:visited {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 27px;
+  text-transform: none;
+  color: #34b1da;
+  text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:focus:hover,
+footer ul li a:visited:hover {
+  color: #fff;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer .footer_box .social-list {
+  padding-top: 19px;
+}
+
+footer .footer_box .social-list li {
+  display: inline-block;
+  float: none;
+}
+
+footer .footer_box .social-list li a {
+  font-size: 24px;
+}
+
+footer .footer_box .social-list li a i {
+  font-style: normal;
+  font-weight: 400;
+}
+
+footer .footer_box .social-list li + li {
+  margin-left: 29px;
+  margin-top: 0;
+}
+
+footer .footer_box .social-list li {
+  display: inline-block;
+  float: none;
+}
+
+footer .footer_box .social-list li a {
+  font-size: 24px;
+}
+
+footer .footer_box .social-list li a i {
+  font-style: normal;
+  font-weight: 400;
+}
+
+footer .footer_box .social-list li + li {
+  margin-left: 29px;
+  margin-top: 0;
+}
+
+footer .address-block {
+  margin-top: -10px;
+}
+
+footer .address-block address {
+  position: relative;
+  overflow: hidden;
+}
+
+footer .address-block address p {
+  padding-left: 27px;
+  padding-top: 15px;
+  margin-bottom: 17px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  position: relative;
+}
+
+footer .address-block address p + p {
+  border-top: 1px solid #3c3c3c;
+}
+
+footer .address-block address p i {
+  position: absolute;
+  left: -2px;
+  top: 16px;
+  display: inline-block;
+  font-size: 23px;
+  color: #fff;
+}
+
+footer .address-block address p a {
+  color: #fff;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+footer .address-block address p a:hover {
+  text-decoration: none;
+  color: #34b1da;
+}
+
+.copyright {
+  position: relative;
+  border-top: 1px solid #aeadad;
+  z-index: 0;
+  font-size: 12px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 0;
+  padding: 12px 0 31px;
+  color: #fff;
+  font-family: ubuntu, sans-serif;
+}
+
+.copyright a,
+.copyright a:visited {
+  color: #fff;
+}
+
+.copyright a:hover {
+  color: #34b1da;
+}
+
+.copyright p {
+  margin: 0;
+  position: relative;
+}
+
+.copyright p:before {
+  position: relative;
+  font-size: 20px;
+  color: #34b1da;
+  margin-right: 7px;
+  line-height: 28px;
+  content: "\eabf";
+  font-family: linearicons;
+  display: inline-block;
 }
